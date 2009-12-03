@@ -340,7 +340,7 @@
       self.nextPage(); 
     });
     
-    if (self.getSize() < conf.size) {
+    if (self.getSize() <= conf.size) {
       next.add(nextPage).addClass(conf.disabledClass);  
     }
     
